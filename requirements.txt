@@ -1,2 +1,2 @@
-chromadb
-anthropic
+chromadb>=1.5.9
+anthropic>=2.12.0

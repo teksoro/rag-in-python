@@ -62,7 +62,7 @@ Each run makes two calls to Claude Haiku, one for each question at the bottom of
   mention who the chief executive is.
 ```
 
-This is one run. The model's wording changes from run to run, and the scores can shift with the version of the embedding model. The program keeps its stored chunks in a `store` folder next to it.
+This is one run. The model's wording changes from run to run, and the scores can shift with the version of the embedding model. The program keeps its stored chunks in a `store` folder next to it. If you edit `docs/refunds.md`, delete the `store` folder before the next run, because chunks from the old version can stay in it.
 
 ## The lessons
 
